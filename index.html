@@ -135,7 +135,7 @@
 
 
 
-<!-- <p><br /></p>
+<p><br /></p>
 <div class="row" id="intro">
   <div class="col-xs-12">
     <h2>Introduction</h2>
@@ -144,16 +144,22 @@
 <div class="row">
   <div class="col-xs-12">
     <p>
-      The release of Sora from OpenAI has attracted lots of interest to build video generation models. Many video generation models have been developed in the past few months, e.g., Runway Gen-3, Kling, Open-Sora, Show-1, Video-Crafter, CogVideoX, Pika-1.5, and Meta Movie Gen to name a few. A powerful video generation model can be substantially impactful for several downstream applications – as an engine for content creation or as a world model for robotics and autonomous driving.
+      World models refer to predictive models of physical phenomena in the world surrounding us. These models are fundamental for Physical AI agents, enabling crucial capabilities such as decision-making, planning, and counterfactual analysis. Effective world models must integrate several key components, including perception, instruction following, controllability, physical plausibility, and future prediction. Over the past year, we have seen remarkable progress in building such world models – from video models trained with text-only conditioning to those leveraging richer conditioning sources (image, video, control). Research teams from both academia and industry have released numerous open-source and proprietary models.
     </p>
     <p>
-      As the area of video generation continues to grow, proper evaluation of video generation models becomes an important open research problem. Establishing reliable benchmarks for this can help shape the course of this research sub-community by helping measure routine progress, supporting competitions to incentivize progress and also interfacing between researchers working on and consumers utilizing such models. Specifically, we want our workshop to inspire more research and discussions about 1) what aspects we should consider for evaluation; 2) how to design the right metrics for quantitative evaluation; 3) how to bridge the gap between quantitative metrics and (expensive) human evaluation; and 4) how well an evaluation metric reflects the model’s utility for downstream applications.
+      This proliferation of world models opens doors to their use in several downstream applications, ranging from content creation, autonomous driving, to robotics. However, these models vary substantially in their training methodologies, data recipes, architectural designs, and input conditioning approaches. As a research community, we are compelled to critically examine their capabilities through comprehensive evaluation. This requires not only identifying relevant evaluation criteria (e.g., physical correctness, alignment with input prompts, generalizability) but also developing appropriate metrics and establishing standardized evaluation methodologies for fair assessment.
     </p>
     <p>
-      Building standard methodology and protocols for evaluation can also provide feedback and guidance for researchers to improve existing models. Enabling fair and comprehensive comparisons through reliable benchmarks is important for the healthy growth of a rising research area. Evaluation can also help us to understand the bias and risk considerations associated with such powerful video generation models, which can have a detrimental societal impacts. We intend to encourage discussions and research along such safety and risk aspects as well. We envision our workshop to provide a forum for researchers working on or utilizing video generation models to have a open and timely discussion, and drive the research community forward on this important topic.
+      The goal of the WorldModelBench workshop is to provide a forum to facilitate in-depth discussions on evaluating world models. The workshop will cover a range of topics, including but not limited to:
+      <ul>
+        <li>Designing accessible benchmarks for evaluating world models</li>
+        <li>Designing methodology, protocols and metrics for quantitative evaluation</li>
+        <li>Downstream evaluation of models through different tasks</li>
+        <li>Considerations surrounding safety and bias in world models</li>
+      </ul>
     </p>
   </div>
-</div> -->
+</div>
 
 <p><br /></p>
 
@@ -165,13 +171,7 @@
 <div class="row">
   <div class="col-xs-12">
       <p>
-        World models refer to predictive models of physical phenomena in the world surrounding us. These models are fundamental for Physical AI agents, enabling crucial capabilities such as decision-making, planning, and counterfactual analysis. Effective world models must integrate several key components, including perception, instruction following, controllability, physical plausibility, and future prediction. Over the past year, we have seen remarkable progress in building such world models – from video models trained with text-only conditioning to those leveraging richer conditioning sources (image, video, control). Research teams from both academia and industry have released numerous open-source and proprietary models. 
-      </p>
-      <p>
-        This proliferation of world models opens doors to their use in several downstream applications, ranging from content creation, autonomous driving, to robotics. However, these models vary substantially in their training methodologies, data recipes, architectural designs, and input conditioning approaches. As a research community, we are compelled to critically examine their capabilities through comprehensive evaluation. This requires not only identifying relevant evaluation criteria (e.g., physical correctness, alignment with input prompts, generalizability) but also developing appropriate metrics and establishing standardized evaluation methodologies for fair assessment.
-      </p>
-      <p>
-        Our workshop aims to provide a forum to facilitate in-depth discussions on evaluating world models. We welcome submissions on any aspects related to evaluating world-models, including but not limited to:
+        We welcome submissions on any aspects related to evaluating world-models, including but not limited to:
       </p>
       <ul>
         <li>Methods for developing world (and video) models, including novel architectures, training approaches, and scaling strategies</li>
